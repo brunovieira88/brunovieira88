@@ -16,15 +16,15 @@ Asynchronous multi-protocol reverse proxy built from scratch — HTTP, gRPC and 
 Python · asyncio · aiohttp · gRPC · Protocol Buffers · Docker SDK
 Round-robin and least-connections balancing per service, priority queue across protocols, Docker-events service discovery that adds and drops backends live, health checker that evicts failing endpoints, and a `/_proxy/stats` endpoint with queue-wait and latency metrics.
 
+**[PortScape](https://github.com/brunovieira88/PortScape)** · [live demo](https://brunovieira88.github.io/PortScape/)
+Turns an nmap scan into an interactive 3D city: each device is a building, height is open ports, colour is risk.
+Java 21 · Spring Boot · React 19 · Three.js · PostgreSQL · Testcontainers
+Rule-based risk model with explainable scores, CVE lookup against the NVD and CISA KEV, MAC-based device identity and baseline diffing, scans restricted to private networks, 442 tests.
+
 **[Passport Fraud Detector](https://github.com/brunovieira88/passport-fraud-detector)**
 Probabilistic pipeline that flags fraudulent passports and links forgery networks.
 MATLAB · Python
 Naïve Bayes classification, counting Bloom filter for O(1) blacklist lookups, MinHash for similarity clustering.
-
-**[UAmplify - Music Streaming Manager](https://github.com/brunovieira88/FDB_UAmplify)**
-Desktop app managing music, albums, playlists and users for a streaming platform.
-C# · .NET 8 (Windows Forms) · SQL
-Role-based access control (listeners, artists, moderators), authentication, normalized relational schema.
 
 **[Multithreaded Web Server](https://github.com/brunovieira88/WebServerSO)**
 HTTP server written from scratch.
